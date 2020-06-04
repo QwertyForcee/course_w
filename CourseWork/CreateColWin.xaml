@@ -1,0 +1,19 @@
+﻿<Window x:Class="CourseWork.CreateColWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork"
+        mc:Ignorable="d"
+        Background="#30E0D0"
+        Title="Create" Height="114.741" Width="503.386">
+    <Grid Margin="0,0,-0.2,0">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name of Collection:" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox Name="NameBox" HorizontalAlignment="Left" Height="23" Margin="130,9,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="NameBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Collection path:" VerticalAlignment="Top" Margin="10,45,0,0" Width="105"/>
+        <TextBlock Name="PathBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="97,48,0,0" Width="317"/>
+        <Button Name="CreateBut" Background="Black" Foreground="Aquamarine" Content="Create" Click="CreateBut_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="282,11,0,0"/>
+
+
+    </Grid>
+</Window>
